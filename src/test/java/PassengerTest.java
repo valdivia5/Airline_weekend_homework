@@ -8,7 +8,7 @@ public class PassengerTest {
     private Passenger passenger;
 
     @Before
-    public void setup() {
+    public void before() {
         passenger = new Passenger("Adrian", 2);
     }
 
