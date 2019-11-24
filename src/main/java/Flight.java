@@ -18,4 +18,27 @@ public class Flight {
         this.departureAirport = departureAirport;
         this.departureTime = departureTime;
     }
+    public int passengerCount() {
+        return this.passengers.size();
+    }
+
+
+    public PlaneType getPlaneType() {
+        return this.plane.getType();
+    }
+
+    public String getFlightNumber() {
+        return this.number;
+    }
+
+    public String getDestination() {
+        return this.destination;
+    }
+
+    public String getDepartureAirport() {
+        return this.departureAirport;
+    }
+    public LocalDateTime getDepartureTime() {
+        return this.departureTime;
+    }
 }
